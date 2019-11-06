@@ -1,0 +1,1 @@
+exports.sayingHello = "Hello, I´m coming from the old file!";
