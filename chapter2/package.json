@@ -1,0 +1,19 @@
+{
+  "name": "chapter2",
+  "version": "1.0.0",
+  "description": "Test to see if I can package NPM installs in a JSON file",
+  "main": "demo_of_lodash.js",
+  "dependencies": {
+    "lodash": "^4.17.15"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jjberg83/basicNodes/tree/master/chapter2"
+  },
+  "author": "JJBerg NPM",
+  "license": "ISC"
+}
