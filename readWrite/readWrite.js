@@ -1,5 +1,8 @@
 let fs = require("fs");
+let navn = require("./data.json");
 
-fs.readFile("./data.json", (err, data) => {
+console.log(navn);
+
+fs.readFile("./data.json", "utf-8", (err, data) => {
     console.log(data);
 })
