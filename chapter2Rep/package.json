@@ -1,0 +1,23 @@
+{
+  "name": "chapter2rep",
+  "version": "1.0.0",
+  "description": "Testing to see if I have to put node_modules in the gitignore file, or if JSON will do the trick",
+  "main": "rep_lodash.js",
+  "dependencies": {
+    "lodash": "^4.17.15"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jjberg83/basicNodes.git"
+  },
+  "author": "Jørund Jenssen Berg",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jjberg83/basicNodes/issues"
+  },
+  "homepage": "https://github.com/jjberg83/basicNodes#readme"
+}
