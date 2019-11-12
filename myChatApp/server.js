@@ -22,6 +22,10 @@ app.post("/messages", (req, res) => {
     res.sendStatus(200);
 })
 
-let server = app.listen(3000, () => {
+io.on("connection", (socket) => {
+    console.log("a user connected");
+})
+
+let server = http.listen(3000, () => {
     console.log("Serveren lytter til port", server.address().port)
 });

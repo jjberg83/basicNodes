@@ -22,6 +22,7 @@
 </div><!-- End of container div -->
 
 <script>
+    let socket = io();
     $(() => {
         $("#send").click(() => {
             let message = { name: $("#name").val(), message: $("#message").val() }; // Huker tak i input og textarea over med jQuery
