@@ -3,6 +3,7 @@ let bodyParser = require("body-parser");
 let app = express();
 let http = require("http").Server(app);
 let io = require("socket.io")(http);
+let mongoose = require("mongoose");
 
 app.use(express.static(__dirname));
 app.use(bodyParser.json());
