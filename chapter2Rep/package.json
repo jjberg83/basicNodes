@@ -4,7 +4,7 @@
   "description": "Testing to see if I have to put node_modules in the gitignore file, or if JSON will do the trick",
   "main": "rep_lodash.js",
   "dependencies": {
-    "lodash": "^4.17.15"
+    "lodash": "^4.17.19"
   },
   "devDependencies": {},
   "scripts": {
